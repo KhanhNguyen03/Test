@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.signup-page {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.signup-left {
+    background: url('./public/Why\ Are\ Hotel\ Sheets\ So\ Tight.jpg') no-repeat center center;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
+
+
+
+.signup-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.signup-form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.signup-form .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.signup-form form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-form form button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #5c3a1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-form form button:hover {
+    background-color: #452e17;
+}
+
+.signup-form .social-login {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-form .facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.signup-form .google {
+    background-color: #db4437;
+    color: white;
+}
+
+.signup-form p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+}

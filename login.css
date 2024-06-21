@@ -1,0 +1,117 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-page {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-left {
+    background: url('./public/Why\ Are\ Hotel\ Sheets\ So\ Tight.jpg') no-repeat center center;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
+
+
+
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.social-login {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+.login-form p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form form button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #5c3a1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form form button:hover {
+    background-color: #452e17;
+}
+
+.login-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
